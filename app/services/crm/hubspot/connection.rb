@@ -1,8 +1,10 @@
-module Hubspot
-  class Connection
-    class << self
-      def initialize
-        puts "Hubspot::Connection.init"
+module CRM
+  module Hubspot
+    class Connection
+      class << self
+        def initialize
+          puts "Hubspot::Connection.init"
+        end
       end
     end
   end
